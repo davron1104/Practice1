@@ -1,0 +1,46 @@
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 60px;    
+    background: url('../img/header_bg.png') center center/cover no-repeat ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 45px;
+}
+
+nav ul li a {
+width: 513px;
+height: 9px;
+color: #ffffff;
+font-family: "Arial - Bold MT";
+font-size: 10px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 25px;
+text-align: right;
+text-transform: uppercase;
+}
+
+nav .phone {
+    display: flex;
+    justify-content: space-between;
+}
+
